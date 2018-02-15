@@ -1,15 +1,17 @@
-/* add your CSS here */
+/* ---------->>> GLOBAL <<<-----------*/
 
 * {
     margin: auto;
     font-family: "Open Sans", sans-serif;
 }
 
-#card {
+/* ---------->>> card <<<-----------*/
+
+.card {
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
     border-radius: 1em;
-    background-color: #000000;
+    background-color: #000;
     width: 340px;
     box-shadow: 2px 2px 5px #e4b65a;
     padding: 0 20px 20px 20px;
@@ -52,12 +54,12 @@ img {
 
 ul {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
     text-align: left;
     line-height: 1.6;
 }
 
-span {
+.list-item-name {
     font-weight: bold;
 }
 
