@@ -2,17 +2,21 @@
 
 * {
     margin: auto;
+    font-family: "Open Sans", sans-serif;
 }
 
 #card {
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
-    border: thin solid #e4b65a;
     border-radius: 1em;
     background-color: #000000;
     width: 340px;
     box-shadow: 2px 2px 5px #e4b65a;
-    padding: 0 20px 20px 20px
+    padding: 0 20px 20px 20px;
+}
+
+.border {
+    border: thin solid #e4b65a;
 }
 
 h3 {
@@ -23,7 +27,6 @@ h3 {
     margin: 1em 0;
     color: #e4b65a;
     padding: 5px;
-    border: 1px solid #e4b65a;
     border-radius: 0.5em;
     text-shadow: 2px 2px 5px #e4b65a;
 }
@@ -32,7 +35,6 @@ img {
     width: 300px;
     margin-bottom: 20px;
     box-sizing: border-box;
-    border: 1px solid #e4b65a;
     border-radius: 1em;
 }
 
@@ -53,16 +55,16 @@ ul {
     padding-left: 0px;
     text-align: left;
     line-height: 1.6;
-    font-size: 13px;
-    padding: 0.5em;
 }
 
 span {
     font-weight: bold;
 }
 
-.description,
-.fun-fact {
+
+.fun-fact,
+ul,
+.description {
     font-size: 13px;
     padding: 0.5em;
 }
